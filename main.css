@@ -1,3 +1,47 @@
 body{
-    background-color: pink
+    background-color: pink;
+
+    
+}
+.card{
+    display:flexbox;
+    box-shadow: 5px 5px 5px 5px;
+    max-width: 500px;
+    min-height:500px;
+ 
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+img{
+}
+
+
+.card img{
+    max-width: width 200px;
+    align: center; 
+    
+}
+ 
+
+h2{
+    border: 1px;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+
+}
+.desc{
+    text-align: justify;
+
+}
+
+.center{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
